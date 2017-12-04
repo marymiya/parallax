@@ -1,0 +1,16 @@
+@import "../junior-cup/junior-cup.css";
+@import "../junior-juice/junior-juice.css";
+
+.junior {
+    padding-top: 100px;
+    padding-bottom: 50vh;
+    background-color: #fedd65;
+
+    & .js-junior-parallax {
+        position: relative;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 700px;
+    }
+}

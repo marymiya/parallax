@@ -1,0 +1,16 @@
+@import "../middle-cup/middle-cup.css";
+@import "../middle-juice/middle-juice.css";
+
+.middle {
+    padding-top: 100px;
+    padding-bottom: 50vh;
+    background-color: #f9d3d5;
+
+    & .js-middle-parallax {
+        position: relative;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 700px;
+    }
+}

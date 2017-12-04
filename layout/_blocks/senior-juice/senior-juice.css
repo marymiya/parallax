@@ -1,0 +1,41 @@
+@import "../senior-clip/senior-clip.css";
+
+.senior-juice {
+
+    &__component {
+        position: absolute;
+        z-index: 1;
+
+        &--apple {
+            @mixin juiceitems 90, 90, 810;
+        }
+
+        &--grapefruit {
+            @mixin juiceitems 85, 190, 900;
+        }
+
+        &--merlot {
+            @mixin juiceitems 80, 93, 970;
+        }
+
+        &--strawberry {
+            @mixin juiceitems 90, 180, 1100;
+        }
+
+        &--lime {
+            @mixin juiceitems 95, 85, 1257;
+        }
+
+        &--lemon {
+            @mixin juiceitems 83, 100, 1165;
+        }
+
+        &--orange {
+            @mixin juiceitems 95, 190, 1245;
+        }
+
+        &--malina {
+            @mixin juiceitems 70, 150, 1365;
+        }
+    }
+}

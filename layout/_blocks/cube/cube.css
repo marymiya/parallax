@@ -1,0 +1,39 @@
+.cube {
+    position: relative;
+    width: 234px;
+    height: 264px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &--red {
+        background-image: url(../images/cube02.png);
+    }
+
+    &--blue {
+        background-image: url(../images/cube01.png);
+    }
+
+    &--purple {
+        background-image: url(../images/cube03.png);
+    }
+
+    &__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-color: #fff;
+        border: 2px solid #ff6d00;
+    }
+
+    &__text {
+        font-family: 'Shrikhand';
+        color: #ff6d00;
+    }
+}

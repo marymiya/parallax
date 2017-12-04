@@ -1,0 +1,30 @@
+.middle-clip {
+    clip-path: url(../images/juice-middle-clip.svg#clip-path);
+    mask: url(../images/juice-middle-clip.svg#clip-mask);
+    mask-repeat: no-repeat;
+    position: absolute;
+    width: 277px;
+    height: 595px;
+    left: calc(50% - 101px);
+    bottom: 65px;
+    z-index: 1;
+
+    &__juice {
+        background-image: url(../images/juice-middle.png);
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+        z-index: 10;
+    }
+
+    &__top {
+        z-index: 3;
+        width: 100%;
+        height: 45px;
+        background-color: #f5d147;
+        position: absolute;
+        top: -23px;
+        border-radius: 50%;
+    }
+}

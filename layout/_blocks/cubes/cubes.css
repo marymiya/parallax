@@ -1,0 +1,19 @@
+@import "../cube/cube.css";
+
+.cubes {
+    text-align: center;
+
+    &__wheel {
+        position: relative;
+        z-index: 1;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        width: 730px;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

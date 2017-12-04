@@ -1,0 +1,12 @@
+:root {
+    --text-color: white;
+    --attention-color: #8a8a93;
+    --attention-button-color: #231f20;
+    --link-color: #3e9a2d;
+
+    @custom-media --S   (width >= 567px);
+    @custom-media --M   (width >= 768px);
+    @custom-media --L   (width >= 992px);
+    @custom-media --XL  (width >= 1200px);
+    @custom-media --XXL (width >= 1500px);
+}

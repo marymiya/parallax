@@ -1,0 +1,71 @@
+.middle-cup {
+
+    &__container {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 10;
+    }
+
+    &__component {
+        position: absolute;
+
+        &--ice-1 {
+             @mixin juiceitems 85, 117, 80;
+        }
+
+        &--ice-2 {
+            @mixin juiceitems 78, 185, 80;
+        }
+
+        &--ice-3 {
+            @mixin juiceitems 50, 92, 190;
+        }
+
+        &--ice-4 {
+            @mixin juiceitems 70, 215, 221;
+        }
+
+        &--ice-5 {
+            @mixin juiceitems 67, 110, 228;
+        }
+
+        &--ice-6 {
+            @mixin juiceitems 61, 79, 265;
+        }
+
+        &--ice-7 {
+            @mixin juiceitems 63, 209, 155;
+        }
+
+        &--ice-8 {
+            @mixin juiceitems 82, 130, 155;
+        }
+
+        &--ice-9 {
+            @mixin juiceitems 43, 175, 220;
+        }
+
+        &--ice-10 {
+            @mixin juiceitems 35, 172, 257;
+        }
+
+        &--ice-11 {
+            @mixin juiceitems 61, 135, 291;
+        }
+
+        &--ice-12 {
+            @mixin juiceitems 58, 183, 330;
+        }
+
+        &--ice-13 {
+            @mixin juiceitems 81, 218, 288;
+        }
+
+        &--tube {
+            width: 195px;
+            bottom: 80px;
+            right: -35px;
+        }
+    }
+}

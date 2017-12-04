@@ -1,0 +1,41 @@
+@import "../junior-clip/junior-clip.css";
+
+.junior-juice {
+
+    &__component {
+        position: absolute;
+        z-index: 1;
+
+        &--apple {
+            @mixin juiceitems 85, 115, 890;
+        }
+
+        &--blueberry {
+            @mixin juiceitems 85, 300, 850;
+        }
+
+        &--grape1 {
+            @mixin juiceitems 130, 122, 750;
+        }
+
+        &--cherry {
+            @mixin juiceitems 75, 235, 730;
+        }
+
+        &--kiwi {
+            @mixin juiceitems 85, 220, 960;
+        }
+
+        &--lime {
+            @mixin juiceitems 105, 240, 1235;
+        }
+
+        &--strawberry {
+            @mixin juiceitems 85, 270, 1095;
+        }
+
+        &--malina {
+            @mixin juiceitems 75, 125, 1050;
+        }
+    }
+}

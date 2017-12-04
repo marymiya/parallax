@@ -1,0 +1,79 @@
+.senior-cup {
+
+    &__container {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 10;
+    }
+
+    &__component {
+        position: absolute;
+
+        &--ice-1 {
+             @mixin juiceitems 85, 190, 80;
+        }
+
+        &--ice-2 {
+            @mixin juiceitems 85, 93, 80;
+        }
+
+        &--ice-3 {
+            @mixin juiceitems 72, 79, 345;
+        }
+
+        &--ice-4 {
+            @mixin juiceitems 48, 228, 160;
+        }
+
+        &--ice-5 {
+            @mixin juiceitems 67, 103, 278;
+        }
+
+        &--ice-6 {
+            @mixin juiceitems 57, 79, 236;
+        }
+
+        &--ice-7 {
+            @mixin juiceitems 63, 85, 155;
+        }
+
+        &--ice-8 {
+            @mixin juiceitems 82, 145, 145;
+        }
+
+        &--ice-9 {
+            @mixin juiceitems 35, 166, 117;
+        }
+
+        &--ice-10 {
+            @mixin juiceitems 45, 235, 360;
+        }
+
+        &--ice-11 {
+            @mixin juiceitems 61, 145, 330;
+        }
+
+        &--ice-12 {
+            @mixin juiceitems 58, 152, 259;
+        }
+
+        &--ice-13 {
+            @mixin juiceitems 93, 188, 278;
+        }
+
+        &--ice-14 {
+            @mixin juiceitems 78, 200, 210;
+        }
+
+        &--ice-15 {
+            @mixin juiceitems 70, 120, 208;
+        }
+
+        &--tube {
+            width: 360px;
+            bottom: 80px;
+            right: -35px;
+        }
+    }
+}

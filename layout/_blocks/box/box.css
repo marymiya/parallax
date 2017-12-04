@@ -1,0 +1,22 @@
+.box {
+    box-sizing: border-box;
+    width: 1070px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (--L) {
+        width: 936px;
+    }
+
+    @media (--M) {
+        width: 720px;
+    }
+
+    @media (--S) {
+        min-width: 320px;
+        width: 100%;
+        max-width: 480px;
+    }
+}

@@ -1,0 +1,88 @@
+.blotter {
+    position: absolute;
+
+    &--num1 {
+        left: 40px;
+        top: 400px;
+    }
+
+    &--num2 {
+        right: 120px;
+        top: 800px;
+    }
+
+    &--num3 {
+        left: 120px;
+        top: 1200px;
+    }
+
+    &--num4 {
+        left: 150px;
+        top: 1600px;
+    }
+
+    &--num5 {
+        right: 60px;
+        top: 2000px;
+    }
+
+    &--num6 {
+        right: 150px;
+        top: 2400px;
+    }
+
+    &--num7 {
+        left: 150px;
+        top: 2800px;
+    }
+
+    &--num8 {
+        right: 10px;
+        top: 3200px;
+    }
+
+    &--num9 {
+        left: 150px;
+        top: 3600px;
+    }
+
+    &--num10 {
+        right: 130px;
+        top: 4000px;
+    }
+
+    &--num11 {
+        right: 50px;
+        top: 4400px;
+    }
+
+    &--num12 {
+        left: 150px;
+        top: 4800px;
+    }
+
+    &--num13 {
+        right: 100px;
+        top: 5200px;
+    }
+
+    &--num14 {
+        left: 180px;
+        top: 5600px;
+    }
+
+    &--num15 {
+        left: 250px;
+        top: 6000px;
+    }
+
+    &--num16 {
+        right: 150px;
+        top: 6400px;
+    }
+
+    &--num17 {
+        left: 50px;
+        top: 6800px;
+    }
+}

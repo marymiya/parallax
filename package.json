@@ -1,0 +1,26 @@
+{
+  "name": "Parallax",
+  "private": true,
+  "description": "Parallax project",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Maria Pozhidaeva",
+    "email": "m.pozhidaeva@inostudio.com"
+  },
+  "devDependencies": {
+    "css-mqpacker": "^6.0.0",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svg-sprites": "^4.1.1",
+    "postcss-color-function": "^4.0.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-import": "^9.1.0",
+    "run-sequence": "^1.2.2"
+  }
+}

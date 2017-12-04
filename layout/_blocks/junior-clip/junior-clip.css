@@ -1,0 +1,30 @@
+.junior-clip {
+    clip-path: url(../images/juice-junior-clip.svg#clip-path);
+    mask: url(../images/juice-junior-clip.svg#clip-mask);
+    mask-repeat: no-repeat;
+    position: absolute;
+    width: 290px;
+    height: 445px;
+    left: calc(50% - 148px);
+    bottom: 75px;
+    z-index: 1;
+
+    &__juice {
+        background-image: url(../images/juice-junior.png);
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+        z-index: 10;
+    }
+
+    &__top {
+        z-index: 3;
+        width: 100%;
+        height: 50px;
+        background-color: #7de052;
+        position: absolute;
+        top: -25px;
+        border-radius: 50%;
+    }
+}

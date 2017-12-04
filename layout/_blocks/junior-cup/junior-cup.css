@@ -1,0 +1,59 @@
+.junior-cup {
+
+    &__container {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 10;
+    }
+
+    &__component {
+        position: absolute;
+
+        &--ice-1 {
+             @mixin juiceitems 90, 200, 105;
+        }
+
+        &--ice-2 {
+            @mixin juiceitems 78, 272, 165;
+        }
+
+        &--ice-3 {
+            @mixin juiceitems 48, 116, 275;
+        }
+
+        &--ice-4 {
+            @mixin juiceitems 78, 205, 190;
+        }
+
+        &--ice-5 {
+            @mixin juiceitems 67, 306, 250;
+        }
+
+        &--ice-6 {
+            @mixin juiceitems 61, 265, 245;
+        }
+
+        &--ice-7 {
+            @mixin juiceitems 63, 157, 145;
+        }
+
+        &--ice-8 {
+            @mixin juiceitems 82, 125, 205;
+        }
+
+        &--ice-9 {
+            @mixin juiceitems 43, 190, 260;
+        }
+
+        &--ice-10 {
+            @mixin juiceitems 35, 232, 262;
+        }
+
+        &--tube {
+            width: 150px;
+            right: 160px;
+            bottom: 96px;
+        }
+    }
+}

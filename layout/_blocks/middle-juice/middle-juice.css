@@ -1,0 +1,37 @@
+@import "../middle-clip/middle-clip.css";
+
+.middle-juice {
+
+    &__component {
+        position: absolute;
+        z-index: 1;
+
+        &--apple {
+            @mixin juiceitems 85, 105, 1165;
+        }
+
+        &--peach {
+            @mixin juiceitems 115, 50, 890;
+        }
+
+        &--orange {
+            @mixin juiceitems 95, 195, 1132;
+        }
+
+        &--cherry {
+            @mixin juiceitems 75, 100, 1360;
+        }
+
+        &--lime {
+            @mixin juiceitems 120, 105, 1000;
+        }
+
+        &--grape {
+            @mixin juiceitems 85, 195, 880;
+        }
+
+        &--mandarin {
+            @mixin juiceitems 105, 180, 1280;
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.hero {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f6f6f6;
+
+    & .box {
+        z-index: 5;
+    }
+
+    &__item {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+
+        &--bg {
+            z-index: 2;
+            width: 100%;
+            background-size: 100%;
+        }
+
+        &--semibg {
+            z-index: 1;
+        }
+
+        &--fruits {
+            z-index: 3;
+        }
+
+        &--layer1 {
+            background-image: url(../images/l1.png);
+        }
+
+        &--layer2 {
+            background-image: url(../images/l2.png);
+        }
+
+        &--layer3 {
+            background-image: url(../images/l3.png);
+        }
+
+        &--layer13 {
+            background-image: url(../images/l13.png);
+            background-size: 50%;
+            background-position: center center;
+        }
+
+        &--layer4 {
+            background-image: url(../images/l4.png);
+            background-position: 75% 0;
+        }
+
+        &--layer5 {
+            background-image: url(../images/l5.png);
+            background-position: 70% 100%;
+        }
+
+        &--layer6 {
+            background-image: url(../images/l6.png);
+            background-position: 10% 100%;
+        }
+
+        &--layer7 {
+            background-image: url(../images/l7.png);
+            background-position: 30px 17%;
+        }
+
+        &--layer8 {
+            background-image: url(../images/l8.png);
+            background-position: 55% 40%;
+        }
+
+        &--layer9 {
+            background-image: url(../images/l9.png);
+            background-position: 90% 300px;
+        }
+
+        &--layer10 {
+            background-image: url(../images/l10.png);
+            background-position: 85% 95%;
+        }
+
+        &--layer11 {
+            background-image: url(../images/l11.png);
+            background-position: 20% 90%;
+        }
+
+        &--layer12 {
+            background-image: url(../images/l12.png);
+            background-position: 10% 50%;
+        }
+    }
+
+    &__title {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        height: 250px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Carrois Gothic;
+        font-size: 65px;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(8, 4, 4, 0.65);
+    }
+}

@@ -1,0 +1,16 @@
+html,
+body {
+    margin: 0;
+}
+
+.page {
+    overflow-x: hidden;
+    background-image: url(../images/page-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-parallax {
+    position: relative;
+    overflow: hidden;
+}

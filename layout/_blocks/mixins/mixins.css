@@ -1,0 +1,5 @@
+@define-mixin juiceitems $width, $left, $bottom {
+    width: $(width)px;
+    left: $(left)px;
+    bottom: $(bottom)px;
+}
